@@ -6,4 +6,8 @@
     <string name="pass">Contraseña</string>
 
     <string name="Logo">Foto del logo</string>
+
+    <string name="menuPrincipal">Foto del logo</string>
+    <string name="registro">Foto del logo</string>
+    <string name="paginaPrincipal">Foto del logo</string>
 </resources>
