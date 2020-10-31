@@ -7,7 +7,11 @@
 
     <string name="Logo">Foto del logo</string>
 
-    <string name="menuPrincipal">Foto del logo</string>
-    <string name="registro">Foto del logo</string>
-    <string name="paginaPrincipal">Foto del logo</string>
+    <string name="menuPrincipal">Menu principal</string>
+    <string name="registro">Registro</string>
+    <string name="paginaPrincipal">Pagina principal</string>
+
+    <string name="buscar">Buscar</string>
+    <string name="compartir">Compartir</string>
+
 </resources>

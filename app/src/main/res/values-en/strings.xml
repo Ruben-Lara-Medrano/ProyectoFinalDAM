@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectFinalDAM</string>
+
+    <string name="emailogin">Email</string>
+
+    <string name="pass">Password</string>
+
+    <string name="Logo">Logo photo</string>
+
+    <string name="menuPrincipal">Main menu</string>
+    <string name="registro">Registry</string>
+    <string name="paginaPrincipal">Main page</string>
+
+    <string name="buscar">Look</string>
+    <string name="compartir">share</string>
+</resources>

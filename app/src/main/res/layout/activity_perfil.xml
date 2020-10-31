@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".perfil">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="226dp"
+        android:layout_height="174dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/previo"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/camara"
+        tools:layout_editor_absoluteY="414dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
