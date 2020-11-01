@@ -3,25 +3,19 @@ package com.example.proyectofinaldam;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.core.content.FileProvider;
 
 import android.Manifest;
-import android.content.Intent;
+
 import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.net.Uri;
+
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
+
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 
 public class MainActivity extends AppCompatActivity {
     private ImageView img;
@@ -79,20 +73,22 @@ public class MainActivity extends AppCompatActivity {
         int id= item.getItemId();
 
         // Id de cada opcion del menu
-        if(id == R.id.paginaPrincipal){
+        if (id != R.id.paginaPrincipal) {
+            if(id == R.id.registro){
+                Toast.makeText(this, "registro", Toast.LENGTH_SHORT).show();
+            }else if(id == R.id.paginaPrincipal){
+                Toast.makeText(this, "paginaPrincipal", Toast.LENGTH_SHORT).show();
+            }
+            else if(id == R.id.compartir){
+                Toast.makeText(this, "Compartir", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+            else if(id == R.id.buscar){
+                Toast.makeText(this, "Buscar", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        } else {
             Toast.makeText(this, "menuPrincipal", Toast.LENGTH_SHORT).show();
-        }else if(id == R.id.registro){
-            Toast.makeText(this, "registro", Toast.LENGTH_SHORT).show();
-        }else if(id == R.id.paginaPrincipal){
-            Toast.makeText(this, "paginaPrincipal", Toast.LENGTH_SHORT).show();
-        }
-        else if(id == R.id.compartir){
-            Toast.makeText(this, "Compartir", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        else if(id == R.id.buscar){
-            Toast.makeText(this, "Buscar", Toast.LENGTH_SHORT).show();
-            return true;
         }
 
         return super.onOptionsItemSelected(item);
