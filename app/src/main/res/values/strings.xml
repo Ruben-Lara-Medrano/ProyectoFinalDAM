@@ -15,4 +15,9 @@
     <string name="compartir">Compartir</string>
 
     <string name="perfil">Tu perfil</string>
+
+    <string name="NombreUsuarioRegistro">Tu nombre de usuario</string>
+    <string name="emailRegistro">Correo electronico</string>
+
+
 </resources>
